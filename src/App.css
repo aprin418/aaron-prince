@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
+:root {
+  --white: #fff;
+  --dark: rgba(255, 255, 255, 0);
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -12,5 +17,19 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a {
-  color: white !important;
+  color: var(--white) !important;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border: 0.1875rem solid var(--dark);
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid;
+  color: orange !important;
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid;
+  color: orange !important;
 }
