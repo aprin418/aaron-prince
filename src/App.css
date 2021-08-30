@@ -11,6 +11,12 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   z-index: 2;
 }
@@ -143,4 +149,47 @@ nav a.nav-link {
 .skills h1 {
   color: var(--dark);
   text-transform: uppercase;
+}
+
+.skills .circle {
+  position: relative;
+  margin: 0.0375rem auto;
+  background-color: var(--red);
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.skills .icon {
+  font-size: 1.4rem;
+  color: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skills .box {
+  height: 19rem;
+  border-bottom: 5px solid var(--red);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background-color: var(--white);
+}
+
+.skills .box:hover {
+  background-color: var(--red);
+  border-bottom: 0.3125rem solid var(--dark);
+}
+
+.skills .box:hover .icon {
+  color: var(--dark);
+}
+
+.skills .box:hover .circle {
+  background-color: var(--white);
+}
+
+.skills .box:hover ul {
+  color: var(--white);
 }
