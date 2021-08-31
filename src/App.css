@@ -7,6 +7,7 @@
   --light-grey: #f4f4f4;
   --grey: gray;
   --dark-gray: #666666;
+  --black: black;
 }
 
 body {
@@ -279,5 +280,95 @@ nav a.nav-link {
     float: none;
     width: 100%;
     direction: ltr;
+  }
+}
+
+.port-wrapper {
+  background-color: var(--grey);
+  padding: 3rem 0;
+}
+
+.port-wrapper h1 {
+  color: var(--red);
+}
+
+.port-img {
+  width: 15rem;
+  /* height: 9rem; */
+  border: 1px solid var(--red);
+  padding: 0 0.5rem;
+}
+
+.port-img-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background-color: var(--black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--red);
+  cursor: pointer;
+}
+
+.port-img-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.port-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.port-img-box:hover .port-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.port-img-popup {
+  width: 45rem;
+  padding: 0 0.4rem;
+}
+
+.link {
+  cursor: pointer;
+  color: var(--red);
+}
+
+.link:hover {
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .port-img-popup {
+    width: 100%;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+  .port-img-popup {
+    width: 50%;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .port-img-popup {
+    width: 30%;
   }
 }
