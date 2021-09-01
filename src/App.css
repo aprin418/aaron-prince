@@ -54,7 +54,7 @@ nav a.nav-link {
   background: url(Coding.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -347,6 +347,10 @@ nav a.nav-link {
 
 .link:hover {
   color: var(--black);
+}
+
+.popupbox-wrapper {
+  margin-top: 7rem;
 }
 
 @media (max-width: 768px) {
