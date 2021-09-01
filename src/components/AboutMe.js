@@ -15,9 +15,8 @@ const AboutMe = () => {
           <p>
             I am a software engineer with a history of problem solving, teamwork
             and leadership. I value independence, responsibility and success. I
-            have a history of working well with anyone from the military and a
-            proven record of finding and fixing problems while working as an
-            automotive technician with BMW.
+            have a proven record of finding and fixing problems while working as
+            an automotive technician with BMW.
           </p>
         </div>
       </div>
