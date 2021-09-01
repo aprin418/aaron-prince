@@ -11,7 +11,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2021</h3>
-            <p>GA</p>
+            <p>General Assembly</p>
             <ul>
               <li>
                 Successfully completed 500+ hours of expert-led instruction in
@@ -48,7 +48,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2018-2021</h3>
-            <p>BMW Tech</p>
+            <p>BMW</p>
             <ul>
               <li>
                 Using industry leading software such as BMW ISTA, BMW ISTA-P and
@@ -80,7 +80,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2016-2017</h3>
-            <p>OTC</p>
+            <p>Ohio Technical College</p>
             <ul>
               <li>
                 Earned Associates of Appled Automotive Science with a 4.0 GPA
@@ -93,7 +93,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2011-2015</h3>
-            <p>USMC</p>
+            <p>United States Marine Corps.</p>
             <ul>
               <li>Held Secret Security Clearance</li>
               <li>Managed and supervised 13 employees</li>
