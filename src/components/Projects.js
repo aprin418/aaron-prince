@@ -34,6 +34,17 @@ const Projects = () => {
         >
           https://liquor-list.herokuapp.com/
         </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/aprin418/Liquor-list"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/aprin418/Liquor-list
+          </a>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -63,6 +74,17 @@ const Projects = () => {
         >
           http://18.188.110.251/home
         </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/aprin418/nucampsite-aws"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/aprin418/nucampsite-aws
+          </a>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -87,6 +109,17 @@ const Projects = () => {
         >
           https://wow-gt.herokuapp.com/
         </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/aprin418/WOW-GT"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/aprin418/WOW-GT
+          </a>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -114,6 +147,17 @@ const Projects = () => {
         >
           https://bird-flow.herokuapp.com/
         </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/aprin418/bird-flow-frontend"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/aprin418/bird-flow-frontend
+          </a>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -137,6 +181,17 @@ const Projects = () => {
         >
           https://aprin418.github.io/JavaScript-Pacman/
         </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/aprin418/JavaScript-Pacman"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/aprin418/JavaScript-Pacman
+          </a>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -164,6 +219,17 @@ const Projects = () => {
         >
           https://aprin418.github.io/war-cards/
         </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/aprin418/war-cards"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/aprin418/war-cards
+          </a>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
