@@ -90,30 +90,30 @@ const Footer = () => {
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                url={"https://aaron-prince.vercel.app/"}
+                url={"https://www.aaronmprince.com/"}
                 quote={"Software Engineer"}
-                hashtag="#JavaScript"
+                hashtag="#SoftwareEngineer"
               >
                 <FacebookIcon className="mx-3" size={36} />
               </FacebookShareButton>
               <TwitterShareButton
-                url={"https://aaron-prince.vercel.app/"}
+                url={"https://www.aaronmprince.com/"}
                 quote={"Software Engineer"}
-                hashtag="#JavaScript"
+                hashtag="#SoftwareEngineer"
               >
                 <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
               <RedditShareButton
-                url={"https://aaron-prince.vercel.app/"}
+                url={"https://www.aaronmprince.com/"}
                 quote={"Software Engineer"}
-                hashtag="#JavaScript"
+                hashtag="#SoftwareEngineer"
               >
                 <RedditIcon className="mx-3" size={36} />
               </RedditShareButton>
               <LinkedinShareButton
-                url={"https://aaron-prince.vercel.app/"}
+                url={"https://www.aaronmprince.com/"}
                 quote={"Software Engineer"}
-                hashtag="#JavaScript"
+                hashtag="#SoftwareEngineer"
               >
                 <LinkedinIcon className="mx-3" size={36} />
               </LinkedinShareButton>
