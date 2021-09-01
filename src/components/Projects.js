@@ -216,7 +216,7 @@ const Projects = () => {
   return (
     <div id="projects" className="port-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+        <h1 className="text-uppercase text-center py-5">Projects</h1>
         <div className="image-box-wrappper row row-cols-auto justify-content-center">
           <div className="port-img-box" onClick={openPopupboxLiquorList}>
             <img
