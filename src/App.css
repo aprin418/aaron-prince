@@ -354,6 +354,12 @@ nav a.nav-link {
   margin-top: 2rem;
 }
 
+.popupbox-content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .port-img-popup {
     width: 100%;
