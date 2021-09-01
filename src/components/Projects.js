@@ -28,7 +28,10 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
-          onClick={() => window.open("https://liquor-list.herokuapp.com/")}
+          href="https://liquor-list.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+          // onClick={() => window.open("https://liquor-list.herokuapp.com/")}
         >
           https://liquor-list.herokuapp.com/
         </a>
@@ -55,6 +58,8 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          target="_blank"
+          rel="noreferrer"
           onClick={() => window.open("http://18.188.110.251/home")}
         >
           http://18.188.110.251/home
@@ -77,6 +82,8 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          target="_blank"
+          rel="noreferrer"
           onClick={() => window.open("https://wow-gt.herokuapp.com/")}
         >
           https://wow-gt.herokuapp.com/
@@ -102,6 +109,8 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          target="_blank"
+          rel="noreferrer"
           onClick={() => window.open("https://bird-flow.herokuapp.com/")}
         >
           https://bird-flow.herokuapp.com/
@@ -123,6 +132,8 @@ const Projects = () => {
         <b>Deployed Link:</b>
         <a
           className="link"
+          target="_blank"
+          rel="noreferrer"
           onClick={() =>
             window.open("https://aprin418.github.io/JavaScript-Pacman/")
           }
@@ -150,6 +161,8 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          target="_blank"
+          rel="noreferrer"
           onClick={() => window.open("https://aprin418.github.io/war-cards/")}
         >
           https://aprin418.github.io/war-cards/
