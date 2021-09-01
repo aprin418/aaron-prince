@@ -31,7 +31,6 @@ const Projects = () => {
           href="https://liquor-list.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
-          // onClick={() => window.open("https://liquor-list.herokuapp.com/")}
         >
           https://liquor-list.herokuapp.com/
         </a>
@@ -58,9 +57,9 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          href="http://18.188.110.251/home"
           target="_blank"
           rel="noreferrer"
-          onClick={() => window.open("http://18.188.110.251/home")}
         >
           http://18.188.110.251/home
         </a>
@@ -82,9 +81,9 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          href="https://wow-gt.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
-          onClick={() => window.open("https://wow-gt.herokuapp.com/")}
         >
           https://wow-gt.herokuapp.com/
         </a>
@@ -109,9 +108,9 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          href="https://bird-flow.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
-          onClick={() => window.open("https://bird-flow.herokuapp.com/")}
         >
           https://bird-flow.herokuapp.com/
         </a>
@@ -132,11 +131,9 @@ const Projects = () => {
         <b>Deployed Link:</b>
         <a
           className="link"
+          href="https://aprin418.github.io/JavaScript-Pacman/"
           target="_blank"
           rel="noreferrer"
-          onClick={() =>
-            window.open("https://aprin418.github.io/JavaScript-Pacman/")
-          }
         >
           https://aprin418.github.io/JavaScript-Pacman/
         </a>
@@ -161,9 +158,9 @@ const Projects = () => {
         <b>Deployed link:</b>
         <a
           className="link"
+          href="https://aprin418.github.io/war-cards/"
           target="_blank"
           rel="noreferrer"
-          onClick={() => window.open("https://aprin418.github.io/war-cards/")}
         >
           https://aprin418.github.io/war-cards/
         </a>
