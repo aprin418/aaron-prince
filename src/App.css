@@ -2,12 +2,13 @@
 
 :root {
   --white: #fff;
-  --dark: rgb(52, 58, 64);
+  --dark: rgba(255, 255, 255, 0);
   --red: red;
   --light-grey: #f4f4f4;
   --grey: gray;
   --dark-gray: #666666;
   --black: black;
+  --orange: orange;
 }
 
 body {
@@ -41,7 +42,7 @@ nav a.nav-link {
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid;
-  color: orange !important;
+  color: var(--orange) !important;
 }
 
 .navbar-nav > li > a:hover {
@@ -94,6 +95,7 @@ nav a.nav-link {
 .btn-main-offer {
   border: 1px solid var(--white);
   text-transform: uppercase;
+  text-decoration: none;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--white);
@@ -101,7 +103,7 @@ nav a.nav-link {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--red);
+  background-color: var(--orange);
   color: var(--white);
   transition: 0.2 ease-in-out;
 }
@@ -129,11 +131,11 @@ nav a.nav-link {
   width: 16rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid var(--red);
+  border: 1px solid var(--orange);
 }
 
 .about-heading {
-  color: var(--red);
+  color: var(--orange);
   text-transform: uppercase;
 }
 
@@ -157,7 +159,7 @@ nav a.nav-link {
 .skills .circle {
   position: relative;
   margin: 0.0375rem auto;
-  background-color: var(--red);
+  background-color: var(--orange);
   border-radius: 50%;
   width: 3.125rem;
   height: 3.125rem;
@@ -174,7 +176,7 @@ nav a.nav-link {
 
 .skills .box {
   height: 19rem;
-  border-bottom: 5px solid var(--red);
+  border-bottom: 5px solid var(--orange);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background-color: var(--white);
@@ -182,12 +184,12 @@ nav a.nav-link {
 }
 
 .skills .box:hover {
-  background-color: var(--red);
+  background-color: var(--orange);
   border-bottom: 0.3125rem solid var(--dark);
 }
 
 .skills .box:hover .icon {
-  color: var(--dark);
+  color: var(--orange);
 }
 
 .skills .box:hover .circle {
@@ -210,7 +212,7 @@ nav a.nav-link {
 
 .experience h1 {
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--orange);
 }
 
 .experience-wrapper::before {
@@ -246,7 +248,7 @@ nav a.nav-link {
   height: 1rem;
   border-radius: 50%;
   border: 0.3125rem solid var(--grey);
-  background-color: var(--red);
+  background-color: var(--orange);
   margin-top: 0.625rem;
   z-index: 3;
 }
@@ -260,7 +262,7 @@ nav a.nav-link {
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--red);
+  color: var(--orange);
   font-weight: 900;
 }
 
@@ -284,18 +286,18 @@ nav a.nav-link {
 }
 
 .port-wrapper {
-  background-color: var(--grey);
+  background-color: var(--light-grey);
   padding: 3rem 0;
 }
 
 .port-wrapper h1 {
-  color: var(--red);
+  color: var(--orange);
 }
 
 .port-img {
   width: 15rem;
-  /* height: 9rem; */
-  border: 1px solid var(--red);
+  height: 9rem;
+  border: 1px solid var(--orange);
   padding: 0 0.5rem;
 }
 
@@ -318,6 +320,7 @@ nav a.nav-link {
 .port-img-box:hover .overflow {
   opacity: 60%;
   transition: 0.3s ease-in-out;
+  height: 9rem;
 }
 
 .port-icon {
@@ -336,7 +339,7 @@ nav a.nav-link {
 }
 
 .port-img-popup {
-  width: 45rem;
+  width: 40rem;
   padding: 0 0.4rem;
 }
 
@@ -350,7 +353,7 @@ nav a.nav-link {
 }
 
 .popupbox-wrapper {
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -383,14 +386,14 @@ nav a.nav-link {
 }
 
 .contact h1 {
-  color: var(--red);
+  color: var(--orange);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
 
 .social-icon {
   background-color: var(--grey);
-  color: var(--black);
+  color: var(--white);
   margin: 0.5rem;
 }
 
@@ -402,12 +405,12 @@ nav a.nav-link {
 
 .footer a {
   text-decoration: none;
-  color: var(--red);
+  color: var(--black);
 }
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--red);
+  color: var(--orange);
   cursor: pointer;
 }
 
