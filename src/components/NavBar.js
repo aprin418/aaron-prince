@@ -25,6 +25,7 @@ const NavBar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link
+                duration={5}
                 smooth={true}
                 to="home"
                 className="nav-link homeLink"
@@ -36,6 +37,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
+                duration={5}
                 smooth={true}
                 to="about"
                 offset={-110}
@@ -48,6 +50,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
+                duration={5}
                 smooth={true}
                 to="skills"
                 offset={-110}
@@ -59,6 +62,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
+                duration={5}
                 smooth={true}
                 to="projects"
                 offset={-110}
@@ -70,6 +74,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
+                duration={5}
                 smooth={true}
                 to="experience"
                 offset={-110}
@@ -81,6 +86,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
+                duration={5}
                 smooth={true}
                 to="contact"
                 offset={-110}
