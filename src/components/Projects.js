@@ -48,6 +48,23 @@ const Projects = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "Liquor List",
+        },
+      },
+    });
+  };
+
+  const popupboxConfigLiquorList = {
+    titleBar: {
+      enable: true,
+      text: "Liquor List",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   const openPopupboxNucampsite = () => {
@@ -88,6 +105,23 @@ const Projects = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "Nucampsite",
+        },
+      },
+    });
+  };
+
+  const popupboxConfigNucampsite = {
+    titleBar: {
+      enable: true,
+      text: "Nucampsite",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   const openPopupboxWowGt = () => {
@@ -123,6 +157,23 @@ const Projects = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "WOW-GT",
+        },
+      },
+    });
+  };
+
+  const popupboxConfigWowGt = {
+    titleBar: {
+      enable: true,
+      text: "WOW-GT",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   const openPopupboxBirdFlow = () => {
@@ -161,6 +212,23 @@ const Projects = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "Bird Flow",
+        },
+      },
+    });
+  };
+
+  const popupboxConfigBirdFlow = {
+    titleBar: {
+      enable: true,
+      text: "Bird Flow",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   const openPopupboxPacman = () => {
@@ -195,6 +263,23 @@ const Projects = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "Pacman",
+        },
+      },
+    });
+  };
+
+  const popupboxConfigPacman = {
+    titleBar: {
+      enable: true,
+      text: "Pacman",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   const openPopupboxWar = () => {
@@ -233,51 +318,14 @@ const Projects = () => {
       </>
     );
     PopupboxManager.open({ content });
-  };
-
-  const popupboxConfigLiquorList = {
-    titleBar: {
-      enable: true,
-      text: "Liquor List",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
-  const popupboxConfigNucampsite = {
-    titleBar: {
-      enable: true,
-      text: "Nucampsite",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
-  const popupboxConfigWowGt = {
-    titleBar: {
-      enable: true,
-      text: "WOW-GT",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
-  const popupboxConfigBirdFlow = {
-    titleBar: {
-      enable: true,
-      text: "Bird Flow",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
-  const popupboxConfigPacman = {
-    titleBar: {
-      enable: true,
-      text: "Pacman",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "War",
+        },
+      },
+    });
   };
 
   const popupboxConfigWar = {
