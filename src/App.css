@@ -403,13 +403,13 @@ nav a.nav-link {
 
 .footer {
   background-color: var(--grey);
-  color: var(--black);
+  color: var(--white);
   padding: 3rem;
 }
 
 .footer a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
 }
 
 .footer a:hover {
