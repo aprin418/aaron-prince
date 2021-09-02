@@ -238,7 +238,7 @@ const Projects = () => {
   const popupboxConfigLiquorList = {
     titleBar: {
       enable: true,
-      text: "Liquor List Project",
+      text: "Liquor List",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -247,7 +247,7 @@ const Projects = () => {
   const popupboxConfigNucampsite = {
     titleBar: {
       enable: true,
-      text: "Liquor List Project",
+      text: "Nucampsite",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -256,7 +256,7 @@ const Projects = () => {
   const popupboxConfigWowGt = {
     titleBar: {
       enable: true,
-      text: "Liquor List Project",
+      text: "WOW-GT",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -265,7 +265,7 @@ const Projects = () => {
   const popupboxConfigBirdFlow = {
     titleBar: {
       enable: true,
-      text: "Liquor List Project",
+      text: "Bird Flow",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -274,7 +274,7 @@ const Projects = () => {
   const popupboxConfigPacman = {
     titleBar: {
       enable: true,
-      text: "Liquor List Project",
+      text: "Pacman",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -283,7 +283,7 @@ const Projects = () => {
   const popupboxConfigWar = {
     titleBar: {
       enable: true,
-      text: "Liquor List Project",
+      text: "War",
     },
     fadeIn: true,
     fadeInSpeed: 500,
