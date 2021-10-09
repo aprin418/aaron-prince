@@ -5,6 +5,7 @@ import wow from "../images/wow.png";
 import cardinal from "../images/cardinal.jpg";
 import Pacman from "../images/Pacman.png";
 import War from "../images/War.png";
+import PricingChart from "../images/PricingChart.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
@@ -337,6 +338,60 @@ const Projects = () => {
     fadeInSpeed: 500,
   };
 
+  const openPopupboxPricingChart = () => {
+    const content = (
+      <>
+        <img
+          className="port-img-popup"
+          src={PricingChart}
+          alt="Pricing chart"
+        />
+        <p>
+          Responsive pricing chart built for a company interview. Built with
+          HTML, CSS, JavaScript and Bootstrap 5.
+        </p>
+        <b>Deployed link:</b>
+        <a
+          className="link"
+          href="https://aprin418.github.io/kvsocial-assesment/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          https://aprin418.github.io/kvsocial-assesment/
+        </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/aprin418/kvsocial-assesment"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/aprin418/kvsocial-assesment
+          </a>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "Pricing Chart",
+        },
+      },
+    });
+  };
+
+  const popupboxConfigPricingChart = {
+    titleBar: {
+      enable: true,
+      text: "Pricing Chart",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
   return (
     <div id="projects" className="port-wrapper">
       <div className="container">
@@ -401,6 +456,12 @@ const Projects = () => {
             <div className="overflow"></div>
             <FontAwesomeIcon className="port-icon" icon={faSearchPlus} />
           </div>
+
+          <div className="port-img-box" onClick={openPopupboxPricingChart}>
+            <img className="port-img" src={PricingChart} alt="Pricing chart" />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="port-icon" icon={faSearchPlus} />
+          </div>
         </div>
       </div>
       <PopupboxContainer {...popupboxConfigLiquorList} />
@@ -409,6 +470,7 @@ const Projects = () => {
       <PopupboxContainer {...popupboxConfigBirdFlow} />
       <PopupboxContainer {...popupboxConfigPacman} />
       <PopupboxContainer {...popupboxConfigWar} />
+      <PopupboxContainer {...popupboxConfigPricingChart} />
     </div>
   );
 };
