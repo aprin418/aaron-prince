@@ -5,6 +5,7 @@ import wow from "../images/wow.png";
 import cardinal from "../images/cardinal.jpg";
 import Pacman from "../images/Pacman.png";
 import War from "../images/War.png";
+import connectUS from "../images/connectUS.png";
 import PricingChart from "../images/PricingChart.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -12,6 +13,62 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Projects = () => {
+  const openPopupboxConnectUS = () => {
+    const content = (
+      <>
+        <img
+          className="port-img-popup"
+          src={connectUS}
+          alt="Connect.US search form"
+        />
+        <p>
+          Connect.US allows users to search for living recommendations based on
+          certain preferences such as population, temperature and income. Built
+          using ReactJSX, NodeJS, Flask and TailwindCSS with a team of 9 UX
+          Designers, Software Engineers and Data Scientists.
+        </p>
+        <b>Deployed link:</b>
+        <a
+          className="link"
+          href="https://connect-us-ga.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          https://connect-us-ga.herokuapp.com/
+        </a>
+        <div>
+          <b>Github link:</b>
+          <a
+            className="link"
+            href="https://github.com/transcriptive/where-should-we-live"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/transcriptive/where-should-we-live
+          </a>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: {
+          text: "Connect.US",
+        },
+      },
+    });
+  };
+
+  const popupboxConfigConnectUS = {
+    titleBar: {
+      enable: true,
+      text: "Connect.US",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
   const openPopupboxLiquorList = () => {
     const content = (
       <>
@@ -397,6 +454,16 @@ const Projects = () => {
       <div className="container">
         <h1 className="text-uppercase text-center py-5">Projects</h1>
         <div className="image-box-wrappper row row-cols-auto justify-content-center">
+          <div className="port-img-box" onClick={openPopupboxConnectUS}>
+            <img
+              className="port-img"
+              src={connectUS}
+              alt="Connect.US search form"
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="port-icon" icon={faSearchPlus} />
+          </div>
+
           <div className="port-img-box" onClick={openPopupboxLiquorList}>
             <img
               className="port-img"
@@ -464,6 +531,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <PopupboxContainer {...popupboxConfigConnectUS} />
       <PopupboxContainer {...popupboxConfigLiquorList} />
       <PopupboxContainer {...popupboxConfigNucampsite} />
       <PopupboxContainer {...popupboxConfigWowGt} />

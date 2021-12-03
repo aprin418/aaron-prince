@@ -337,7 +337,8 @@ nav a.nav-link {
 }
 
 .port-img-popup {
-  width: 40rem;
+  /* width: 25rem; */
+  height: 20rem;
   padding: 0 0.4rem;
 }
 
